@@ -43,7 +43,6 @@ class Product:
 
     def show(self):
         product_info = f"{self.name}, Price: {self.price}, Quantity: {self.quantity}"
-        print(product_info)
         return product_info
 
 
